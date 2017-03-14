@@ -1,0 +1,104 @@
+<!--
+FILE NAME: style.css
+WRITTEN BY: Jennifer Otiono
+DATE: 2.25.17
+PURPOSE: CS115/ΜΑΣ115 assignment 1/style.css
+-->
+<!--I found this code through my own readings on Navigation Bars in W3Schools!-->
+
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body {
+    background-color:white;
+    color: black;
+    background:url("../hw2/images/vintage-flowers.png");
+    width: 50%; 
+}
+#wrapper {
+    width:700px;
+    margin:auto;
+}
+h2 {
+	font-size: 20pt;
+	font-family: "Zapfino", serif;
+	font-style: bold;
+	text-align: center;
+	border-radius: 25px;
+	border: 2px solid;
+	border-color: white; 	
+}
+div {
+	text-align: left;
+	border-radius: 25px;
+	border: 2px solid;
+	border-color: gray;
+	line-height: 2em;
+	 
+} 
+img {
+	right: 20px;
+}
+
+#Jen {
+	color: red; 
+	
+}
+
+.Major {
+color: Blue;
+font-style: bold;
+}
+
+.Fun {
+color: orange;
+}
+
+.Activities {
+color: Purple;
+text-align: right; 
+}

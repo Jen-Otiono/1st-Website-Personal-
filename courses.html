@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+FILE NAME: courses.html
+WRITTEN BY: Jennifer Otiono
+DATE: 2.25.17
+PURPOSE: CS115/ΜΑΣ115 assignment 1/courses
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Your name here">
+     <!-- this is where your link tag will go for the external stylesheet! -->
+     <link rel="stylesheet" href="style.css">
+    <title>J. Ijeoma</title>
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="assign2.html">About Me</a>
+  <a href="courses.html">Spring 2017 Courses & Activities</a>
+  <a href="#">Resume</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</div>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+	<h3> Courses</h3>
+		<ul>
+			<li class = "Major"> BISC 331: Cancer Genomics</li> 
+			<li class = "Major"> BISC 204:Biological Modeling</li> 
+			<li class = "Fun"> CS 115: Computing For The Socio-Techno Web</li> 
+			<li class = "Fun"> WRIT 390: Calderwood Seminar on Law, Medicine, and Ethics </li> 
+		</ul>
+	
+
+	<h3> Activities </h3>
+		<ul>
+			<li class> <a href = "http://web.mit.edu/jasanofflab/">UROP: Jasanoff Lab</a>, undergraduate researcher
+			<li> <a href = " https://wellesleyasa.wordpress.com/">Wellesley African Students Association</a>: General Member
+			<li> <a href = " http://180dc.org/about/why-we-exist/"> 180DC: Social Impact Consulting </a>
+			<li> Startup: 🙏🏾 A Dream 🙏🏾
+		</ul>
+		
+
+<p>
+ <a href="http://validator.w3.org/check?uri=referer">
+     <img 
+       src="http://cs.wellesley.edu/~cs110/Icons/valid-html5v2.png"
+       alt="Valid HTML 5"
+       title="Valid HTML 5"  
+       height="31" width="88">
+  </a> 
+</p>
+</body>
+
+</html>
